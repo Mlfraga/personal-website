@@ -1,6 +1,6 @@
+import clsx from 'clsx'
 import Image, { type ImageProps } from 'next/image'
 import Link from 'next/link'
-import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -11,18 +11,16 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoGlaros from '@/images/logos/glaros.png'
+import logoMult from '@/images/logos/mult.svg'
+import logoNanotech from '@/images/logos/nanotech.svg'
+import logoQesh from '@/images/logos/qesh.svg'
 import image1 from '@/images/photos/image-1.jpeg'
+import image10 from '@/images/photos/image-10.jpeg'
 import image2 from '@/images/photos/image-2.jpeg'
 import image3 from '@/images/photos/image-3.jpeg'
-import image4 from '@/images/photos/image-4.jpeg'
 import image6 from '@/images/photos/image-6.jpeg'
-import image10 from '@/images/photos/image-10.jpeg'
-import image7 from '@/images/photos/image-7.jpeg'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
+import { getAllArticles, type ArticleWithSlug } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -189,35 +187,38 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Grupo Mult',
+      title: 'Software Engineer',
+      logo: logoMult,
+      start: 'Jul 2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Qesh',
+      title: 'Software Engineer',
+      logo: logoQesh,
+      start: 'Feb 2021',
+      end: 'Jul 2021',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Nanotech',
+      title: 'Software Engineer',
+      logo: logoNanotech,
+      start: 'Mar 2020',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Glaros',
+      title: 'Software Engineer',
+      logo: logoGlaros,
+      start: 'Dec 2020',
+      end: 'Feb 2021',
     },
   ]
 
@@ -268,7 +269,7 @@ function Photos() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
+  let articles = (await getAllArticles()).slice(0, 7)
 
   return (
     <>

@@ -7,12 +7,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Matheus Fraga',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Matheus Fraga - Software designer, founder, and amateur astronaut',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    `I’m Matheus, a software engineer based in Belo Horizonte. I've been immersed in frontend development for over 5 years, primarily focused on building web applications. But I've also developed mobile apps with React Native and contributed to backend services using Node.js, .NET, and Java. Lately, I've been improving my skills in user experience and exploring Go.`,
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
