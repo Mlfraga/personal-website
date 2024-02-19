@@ -73,30 +73,27 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              {`I've always been passionated by digital world! My first contact with a computer is when I was
+              just nine years old, playing online puzzles on my sister's computer. Soon, I
+              was hooked on playing games on my PlayStation 3. But the real
+              game-changer came at 14 when I got my first computer, made a website
+              using HTML, and sparked my first interest for coding. `}
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              {`By the age of 16, I had delved deeper into the world of programming by enrolling in a technical course in software development. It was there that I developed a foundational understanding of programming logic through C++ and began coding with .NET and Java. This experience solidified my decision to pursue a career in this field. Ultimately, searching in the internet I discovered the versatility of JavaScript for developing mobile, web, and server applications, leading me to specialize in it. I committed myself to mastering JavaScript, aiming bocome a full-stack JavaScript developer.`}
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              Automobiles have also captured my interest from a young age. I`m
+              fascinated by custom automobiles, dedicating part of my free time
+              to automotive events and customizing vintage cars.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              Professionally, I am in pursuit of new ventures and substantial
+              projects that challenge me to apply my comprehensive knowledge in
+              software development, especially in enhancing user experience
+              through front-end development. My expertise predominantly lies in
+              the JavaScript ecosystem, encompassing NodeJS, Express, Fastify,
+              React, NextJS, React Native, and Tailwind CSS.
             </p>
           </div>
         </div>
