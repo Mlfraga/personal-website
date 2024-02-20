@@ -310,21 +310,25 @@ export default async function Home() {
               href="https://twitter.com/FragaSlk"
               aria-label="Follow on X"
               icon={XIcon}
+              target="blank"
             />
             <SocialLink
               href="https://www.instagram.com/fraga.js/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
+              target="blank"
             />
             <SocialLink
               href="https://github.com/Mlfraga"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+              target="blank"
             />
             <SocialLink
               href="https://www.linkedin.com/in/matheus-fraga-257628178/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+              target="blank"
             />
           </div>
         </div>
