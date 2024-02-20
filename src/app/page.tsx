@@ -17,10 +17,11 @@ import logoNanotech from '@/images/logos/nanotech.svg'
 import logoQesh from '@/images/logos/qesh.svg'
 import logoSumzero from '@/images/logos/sumzero.png'
 import image1 from '@/images/photos/image-1.jpeg'
-import image10 from '@/images/photos/image-10.jpeg'
+import image11 from '@/images/photos/image-11.jpeg'
+import image12 from '@/images/photos/image-12.jpeg'
 import image2 from '@/images/photos/image-2.jpeg'
 import image3 from '@/images/photos/image-3.jpeg'
-import image6 from '@/images/photos/image-6.jpeg'
+// import image6 from '@/images/photos/image-6.jpeg'
 import { getAllArticles, type ArticleWithSlug } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -268,7 +269,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image10, image2, image3, image1, image6].map((image, imageIndex) => (
+        {[image1, image11, image2, image12, image3].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
