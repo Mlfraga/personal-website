@@ -47,74 +47,90 @@ export default function Uses() {
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+          <Tool title="14” MacBook Pro, M2 Max, 96GB RAM (2023)">
+            Its robust processing and the generous RAM allow me handle with
+            multi tasks, running multiple applications at the same, beyond I can
+            run multiple virtual machines and development environments.
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
+          <Tool title="KeyChron K8 Pro">
+            I used to use KeyChron K3. The change was huge, even the K3 is very
+            great and was my best keyboard until I buy K8. The K8 Pro is a
+            little bit bigger and the keys are much more comfortable.
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
-          </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
-          </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="Logitech Mx Master 3s">
+            As far the best mouse that I ever used. The battery life is
+            incredible, like 3 months every day use without charging, and the
+            ergonomics are perfect.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+          <Tool title="VS Code">
+            VSCode is my top IDE choice, offering vast extension support and
+            multi-language compatibility for back-end, front-end, and mobile
+            projects, making development seamless and efficient.
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="IntelliJ IDEA">
+            IntelliJ IDEA is the best IDE for Java development, it has a lot of
+            features that make the development process very easy and fast.
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="Visual Studio">
+            The IDE that I use to develop applications in C# and .NET.
+          </Tool>
+          <Tool title="GitKraken">
+            The best tool to handle with git repositories, the UI is very simple
+            and intuitive. Is perfect to handle with complex git operations, you
+            can resolve any problem with a few clicks.
+          </Tool>
+          <Tool title="Insomnia">
+            {`Even with the launch of some features that I didn't really like,
+            such as the inclusion of the need to login, insomnia continues to be
+            one of the tools I use most to test requests, I love its interface
+            and the possibility of customizing the theme as I want.`}
+          </Tool>
+          <Tool title="Warp">
+            {`Very nice tool to change the experience with the terminal, it's a nice alternative 
+            to the traditional ssh, it's very fast and the UI is very nice make the tabs very organized.`}
+          </Tool>
+          <Tool title="Dynobase">
+            Very nice tool to handle with DynamoDB it was a nice solution
+            because dbeaver does not have support to dynamo, the UI is very
+            intuitive and allow you to execute some small actions in a table
+            that saves a lot of time.
+          </Tool>
+          <Tool title="Dbeaver">
+            {`The best tool to handle with databases, it's very complete and the
+            UI is very intuitive, I use it to run queries in the database and export data.`}
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            {`Figma is my go-to tool for designing and prototyping. It's fast, and
+            all that I need to design or prototype is there.`}
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
+          <Tool title="Notion">
+            {`I've been using Notion for a few years now and it's been a game changer for me.
+            I organize everything in Notion, from my personal life to my work life. I use it
+            to keep track of my tasks, write notes, and even to plan my finance life. It's a very
+            powerful tool and I love it.`}
           </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+          <Tool title="Notion Calendar">
+            {`The old 'cron' calendar, I use it to organize my day and keep track
+            of my tasks. The sync with Notion and Google is perfect and make my
+            life much easier.`}
           </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
+          <Tool title="1Password">
+            {`This tool is a life saver, solve a big problem. I store all
+            my credentials in 1Password securely and the best is that I dont need to remember any password.`}
           </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+          <Tool title="Arc">
+            I always be the person who opened a milion tabs in the browser and
+            was lost. Arc is a nice tool to organize the tabs and make the
+            browser experience much better.
+          </Tool>
+          <Tool title="SurfShark">
+            {`My choice for VPN, it's very fast and secure.`}
           </Tool>
         </ToolsSection>
       </div>

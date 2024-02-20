@@ -15,6 +15,7 @@ import logoGlaros from '@/images/logos/glaros.png'
 import logoMult from '@/images/logos/mult.svg'
 import logoNanotech from '@/images/logos/nanotech.svg'
 import logoQesh from '@/images/logos/qesh.svg'
+import logoSumzero from '@/images/logos/sumzero.png'
 import image1 from '@/images/photos/image-1.jpeg'
 import image10 from '@/images/photos/image-10.jpeg'
 import image2 from '@/images/photos/image-2.jpeg'
@@ -141,6 +142,7 @@ function Newsletter() {
 
 interface Role {
   company: string
+  companyUrl?: string
   title: string
   logo: ImageProps['src']
   start: string | { label: string; dateTime: string }
@@ -157,7 +159,11 @@ function Role({ role }: { role: Role }) {
   let endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
 
   return (
-    <li className="flex gap-4">
+    <a
+      href={role.companyUrl}
+      target="_blank"
+      className="flex cursor-pointer gap-4"
+    >
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
         <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
       </div>
@@ -180,7 +186,7 @@ function Role({ role }: { role: Role }) {
           <time dateTime={endDate}>{endLabel}</time>
         </dd>
       </dl>
-    </li>
+    </a>
   )
 }
 
@@ -188,6 +194,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Grupo Mult',
+      companyUrl: 'http://grupomult.com.br/',
       title: 'Software Engineer',
       logo: logoMult,
       start: 'Jul 2021',
@@ -197,7 +204,16 @@ function Resume() {
       },
     },
     {
+      company: 'SumZero Energy Systems',
+      companyUrl: 'https://www.sumzeroenergysystems.com/',
+      title: 'Software Engineer',
+      logo: logoSumzero,
+      start: 'Feb 2023',
+      end: 'Nov 2023',
+    },
+    {
       company: 'Qesh',
+      companyUrl: 'https://qesh.ai/',
       title: 'Software Engineer',
       logo: logoQesh,
       start: 'Feb 2021',
@@ -205,6 +221,7 @@ function Resume() {
     },
     {
       company: 'Nanotech',
+      companyUrl: 'https://nanotechcardetail.com.br/',
       title: 'Software Engineer',
       logo: logoNanotech,
       start: 'Mar 2020',
