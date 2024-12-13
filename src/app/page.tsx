@@ -11,6 +11,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
+import logoFcamara from '@/images/logos/fcamara.png'
 import logoGlaros from '@/images/logos/glaros.png'
 import logoMult from '@/images/logos/mult.svg'
 import logoNanotech from '@/images/logos/nanotech.svg'
@@ -194,15 +195,23 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Grupo Mult',
-      companyUrl: 'http://grupomult.com.br/',
+      company: 'FCamara Consulting & Training',
+      companyUrl: 'https://fcamara.com/',
       title: 'Software Engineer',
-      logo: logoMult,
-      start: 'Jul 2021',
+      logo: logoFcamara,
+      start: 'Jul 2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: 'Grupo Mult',
+      companyUrl: 'https://grupomult.com.br/',
+      title: 'Software Engineer',
+      logo: logoMult,
+      start: 'Jul 2021',
+      end: 'Jul 2024',
     },
     {
       company: 'SumZero Energy Systems',
@@ -252,7 +261,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/uc?export=download&id=1HGBO4i9WLzDeQGpoRlDdsW0tgrJvqjJt"
+        href="https://drive.google.com/uc?export=download&id=1gOWKZZT61cKz_Ywzu3z1L1x-0Sxy0WYk"
         variant="secondary"
         className="group mt-6 w-full"
       >

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Matheus Fraga',
     default:
-      'Matheus Fraga - Software engineet, open-sourcer, and design passionate',
+      'Matheus Fraga - Software engineer, open-sourcer, and design passionate',
   },
   description: `I’m Matheus, a software engineer based in Belo Horizonte. I've been immersed in frontend development for over 5 years, primarily focused on building web applications. But I've also developed mobile apps with React Native and contributed to backend services using Node.js, .NET, and Java. Lately, I've been improving my skills in user experience and exploring Go.`,
   alternates: {
