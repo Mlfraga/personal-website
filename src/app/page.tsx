@@ -261,8 +261,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/uc?export=download&id=1gOWKZZT61cKz_Ywzu3z1L1x-0Sxy0WYk"
-        variant="secondary"
+        href="https://drive.google.com/uc?export=download&id=1c9gEo6wT16Y7oof_JblmWM4qOxktjNEQ"
         className="group mt-6 w-full"
       >
         Download CV
