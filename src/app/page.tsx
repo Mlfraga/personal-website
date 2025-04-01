@@ -11,6 +11,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
+import logoDeloitte from '@/images/logos/deloitte.png'
 import logoFcamara from '@/images/logos/fcamara.png'
 import logoGlaros from '@/images/logos/glaros.png'
 import logoMult from '@/images/logos/mult.svg'
@@ -22,7 +23,6 @@ import image11 from '@/images/photos/image-11.jpeg'
 import image12 from '@/images/photos/image-12.jpeg'
 import image2 from '@/images/photos/image-2.jpeg'
 import image3 from '@/images/photos/image-3.jpeg'
-// import image6 from '@/images/photos/image-6.jpeg'
 import { getAllArticles, type ArticleWithSlug } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -195,15 +195,23 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Deloitte',
+      companyUrl: 'https://www.deloitte.com',
+      title: 'Software Engineer',
+      logo: logoDeloitte,
+      start: 'Jul 2025',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'FCamara Consulting & Training',
       companyUrl: 'https://fcamara.com/',
       title: 'Software Engineer',
       logo: logoFcamara,
       start: 'Jul 2024',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      end: 'March 2025',
     },
     {
       company: 'Grupo Mult',
@@ -216,7 +224,7 @@ function Resume() {
     {
       company: 'SumZero Energy Systems',
       companyUrl: 'https://www.sumzeroenergysystems.com/',
-      title: 'Software Engineer',
+      title: '(Part Time) Software Engineer',
       logo: logoSumzero,
       start: 'Feb 2023',
       end: 'Nov 2023',
@@ -232,13 +240,10 @@ function Resume() {
     {
       company: 'Nanotech',
       companyUrl: 'https://nanotechcardetail.com.br/',
-      title: 'Software Engineer',
+      title: '(Part Time) Software Engineer',
       logo: logoNanotech,
       start: 'Mar 2020',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      end: 'Feb 2023',
     },
     {
       company: 'Glaros',
