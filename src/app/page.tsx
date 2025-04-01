@@ -316,7 +316,9 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {`Hi, I'm Matheus 👋`}
             <br />
-            {`With over 4 years of experience in full-stack development, I specialize in crafting web applications within the JavaScript ecosystem. My expertise extends from using Node.js and NestJS for dynamic backend services to employing React and React Native for fluid web and mobile interfaces. Beyond JavaScript, I've also contributed to server-side development with .NET, Java, and Go, enriching my versatile skill set.`}
+            {`With over ${
+              new Date().getFullYear() - 2020
+            } years of experience in full-stack development, I specialize in crafting web applications within the JavaScript ecosystem. My expertise extends from using Node.js and NestJS for dynamic backend services to employing React and React Native for fluid web and mobile interfaces. Beyond JavaScript, I've also contributed to server-side development with .NET, Java, and Go, enriching my versatile skill set.`}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
