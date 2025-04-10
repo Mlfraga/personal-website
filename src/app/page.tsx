@@ -195,9 +195,9 @@ function Resume() {
     {
       company: 'Deloitte',
       companyUrl: 'https://www.deloitte.com',
-      title: 'Software Engineer',
+      title: 'Sr. Software Engineer',
       logo: logoDeloitte,
-      start: 'Jul 2025',
+      start: 'March 2025',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
