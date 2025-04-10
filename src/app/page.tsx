@@ -13,17 +13,15 @@ import {
 } from '@/components/SocialIcons'
 import logoDeloitte from '@/images/logos/deloitte.png'
 import logoFcamara from '@/images/logos/fcamara.png'
-import logoGlaros from '@/images/logos/glaros.png'
 import logoMult from '@/images/logos/mult.svg'
-import logoNanotech from '@/images/logos/nanotech.svg'
 import logoQesh from '@/images/logos/qesh.svg'
-import logoSumzero from '@/images/logos/sumzero.png'
 import image1 from '@/images/photos/image-1.jpeg'
 import image11 from '@/images/photos/image-11.jpeg'
 import image12 from '@/images/photos/image-12.jpeg'
 import image2 from '@/images/photos/image-2.jpeg'
 import image3 from '@/images/photos/image-3.jpeg'
 import { getAllArticles, type ArticleWithSlug } from '@/lib/articles'
+import getExperienceTime from '@/lib/experience-time'
 import { formatDate } from '@/lib/formatDate'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -222,35 +220,12 @@ function Resume() {
       end: 'Jul 2024',
     },
     {
-      company: 'SumZero Energy Systems',
-      companyUrl: 'https://www.sumzeroenergysystems.com/',
-      title: '(Part Time) Software Engineer',
-      logo: logoSumzero,
-      start: 'Feb 2023',
-      end: 'Nov 2023',
-    },
-    {
       company: 'Qesh',
       companyUrl: 'https://qesh.ai/',
       title: 'Software Engineer',
       logo: logoQesh,
       start: 'Feb 2021',
       end: 'Jul 2021',
-    },
-    {
-      company: 'Nanotech',
-      companyUrl: 'https://nanotechcardetail.com.br/',
-      title: '(Part Time) Software Engineer',
-      logo: logoNanotech,
-      start: 'Mar 2020',
-      end: 'Feb 2023',
-    },
-    {
-      company: 'Glaros',
-      title: 'Software Engineer',
-      logo: logoGlaros,
-      start: 'Dec 2020',
-      end: 'Feb 2021',
     },
   ]
 
@@ -316,9 +291,7 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {`Hi, I'm Matheus 👋`}
             <br />
-            {`With over ${
-              new Date().getFullYear() - 2020
-            } years of experience in full-stack development, I specialize in crafting web applications within the JavaScript ecosystem. My expertise extends from using Node.js and NestJS for dynamic backend services to employing React and React Native for fluid web and mobile interfaces. Beyond JavaScript, I've also contributed to server-side development with .NET, Java, and Go, enriching my versatile skill set.`}
+            {`With over ${getExperienceTime()} years of experience in full-stack development, I specialize in crafting web applications within the JavaScript ecosystem. My expertise extends from using Node.js and NestJS for dynamic backend services to employing React and React Native for fluid web and mobile interfaces. Beyond JavaScript, I've also contributed to server-side development with .NET, Java, and Go, enriching my versatile skill set.`}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

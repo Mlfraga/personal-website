@@ -4,6 +4,7 @@ import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 import { Analytics } from '@vercel/analytics/react'
 
+import getExperienceTime from '@/lib/experience-time'
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     default:
       'Matheus Fraga - Software engineer, open-sourcer, and design passionate',
   },
-  description: `I’m Matheus, a software engineer based in Belo Horizonte. I've been immersed in frontend development for over 5 years, primarily focused on building web applications. But I've also developed mobile apps with React Native and contributed to backend services using Node.js, .NET, and Java. Lately, I've been improving my skills in user experience and exploring Go.`,
+  description: `I’m Matheus, a software engineer based in Belo Horizonte. I've been immersed in frontend development for over ${getExperienceTime()} years, primarily focused on building web applications. But I've also developed mobile apps with React Native and contributed to backend services using Node.js, .NET, and Java. Lately, I've been improving my skills in user experience and exploring Go.`,
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
