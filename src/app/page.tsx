@@ -213,7 +213,7 @@ function Resume() {
     },
     {
       company: 'Grupo Mult',
-      companyUrl: 'https://grupomult.com.br/',
+      companyUrl: 'https://www.grupomult.com.br/',
       title: 'Software Engineer',
       logo: logoMult,
       start: 'Jul 2021',
