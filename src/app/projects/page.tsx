@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import logoEuConsultor from '@/images/logos/euconsultor.svg'
 import logoNanotech from '@/images/logos/nanotech.svg'
 
 const projects = [
@@ -14,6 +15,15 @@ const projects = [
       label: 'Docs',
     },
     logo: logoNanotech,
+  },
+  {
+    name: 'Eu Consultor',
+    description: `Eu Consultor simplifies how self-employed professionals in construction create quotes, manage materials, and earn commissions. Built for ease of use, it guides users through job estimates, automates material suggestions, and connects them directly to partner stores.`,
+    link: {
+      href: 'https://euconsultor.com',
+      label: 'Website',
+    },
+    logo: logoEuConsultor,
   },
 ]
 
@@ -30,14 +40,14 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Projects & Solutions I’ve Engineered',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m proud of and can be shared. "
+      title="Projects & Solutions I’ve Engineered"
+      intro="A showcase of impactful products and platforms I’ve built, architected, or scaled each reflecting my commitment to robust code, technical excellence, and real-world results."
     >
       <ul
         role="list"
