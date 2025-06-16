@@ -69,31 +69,32 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Matheus Fraga, a software engineer based in Belo Horizonte.
+            I’m Matheus Fraga, a Software Engineer based in Belo Horizonte.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              {`I've always been passionated by digital world! My first contact with a computer is when I was
-              just nine years old, playing online puzzles on my sister's computer. Soon, I
-              was hooked on playing games on my PlayStation 3. But the real
-              game-changer came at 14 when I got my first computer, made a website
-              using HTML, and sparked my first interest for coding. `}
+              My journey with technology started early—at 14, I built my first
+              website using HTML and realized my passion for coding. By 16, I
+              was already studying programming in a technical course, learning
+              C++, .NET, and Java, which laid the foundation for my career in
+              software development.
             </p>
             <p>
-              {`By the age of 16, I had delved deeper into the world of programming by enrolling in a technical course in software development. It was there that I developed a foundational understanding of programming logic through C++ and began coding with .NET and Java. This experience solidified my decision to pursue a career in this field. Ultimately, searching in the internet I discovered the versatility of JavaScript for developing mobile, web, and server applications, leading me to specialize in it. I committed myself to mastering JavaScript, aiming bocome a full-stack JavaScript developer.`}
+              Over time, I found in JavaScript a versatile tool for creating
+              web, mobile, and backend applications. Since then, I’ve focused my
+              career on mastering the JavaScript ecosystem, working with
+              technologies like Node.js, Express, Fastify, React, Next.js, React
+              Native, and Tailwind CSS.
             </p>
             <p>
-              Automobiles have also captured my interest from a young age. I`m
-              fascinated by custom automobiles, dedicating part of my free time
-              to automotive events and customizing vintage cars.
+              I’m driven by solving real-world problems and delivering
+              high-quality user experiences, especially through front-end
+              development and full-stack solutions. I enjoy working on projects
+              that challenge me to grow and push my technical boundaries.
             </p>
             <p>
-              Professionally, I am in pursuit of new ventures and substantial
-              projects that challenge me to apply my comprehensive knowledge in
-              software development, especially in enhancing user experience
-              through front-end development. My expertise predominantly lies in
-              the JavaScript ecosystem, encompassing NodeJS, Express, Fastify,
-              React, NextJS, React Native, and Tailwind CSS.
+              Outside of coding, I’m passionate about automobiles—spending my
+              free time at car meets and working on custom vintage car projects.
             </p>
           </div>
         </div>
